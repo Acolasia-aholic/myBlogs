@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(0, 0, 0,.95);
+}
+header {
+    height: 120px;
+    background-image:url(../imgs/导航.png);
+    background-position: 20px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+nav {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    /* background-color:rgb(30, 31, 38); */
+    background-color: black;
+}
+.menu a {
+    /* display: inline-block; */
+    margin-right: 25px;
+    width: 80px;
+    text-decoration: none;
+    color: #fff;
+}
+.menu a:hover {
+    color: rgb(174, 99, 228);
+}
+.menu .focus {
+    color: rgb(174, 99, 228);
+}
+main {
+    margin: auto;
+    width: 1130px;
+    background-color: rgb(19, 20, 23);
+}
+.mainLeft {
+    float: left;
+    /* background-color: pink; */
+}
+.mainLeft .listBox {
+    width: 770px;
+    height: auto;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(30, 31, 38);
+    padding:30px 15px 30px 15px;
+}
+.listBox h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.colDefault {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.colInfo {
+    color:rgb(21, 178, 235) ;
+}
+dfn {
+    font-size: 20px;
+}
+.function a {
+    text-decoration: none;
+    color: #fff;
+}
+.function {
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(21, 16, 25);
+}
+.pager {
+    width: 770px;
+    margin-top: 20px;
+    height: 50px;
+    background-color: rgb(30, 31, 38);
+}
+.previous {
+    float: left;
+    margin-left: 20px;
+}
+.next {
+    float: right;
+    margin-right: 20px;
+}
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+}
+ul {
+    text-align: center;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+ul li a:hover {
+    color: rgb(174, 99, 228);
+}
+.mainRight {
+    float: right;
+    margin-bottom: 30px;
+    /* background-color: blue; */
+}
+.mainRight .rightBox {
+    width: 260px;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(32, 33, 36);
+}
+.rightBox a {
+    text-decoration: none;
+    color: rgb(174, 99, 228);
+}
+
+#loginBox {
+    height: 240px;
+}
+#registerBox {
+    display:none;
+    height: 280px;
+}
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.line {
+    margin-bottom: 20px;
+}
+.colDark {
+    font-size: 15px;
+}
+#loginBox .line {
+    float: right;
+}
+#registerBox  .line {
+    float: right;
+}
+.textRight {
+    float: right;
+}
+.colWarning {
+    margin-top: 10px;
+    width: 250px;
+    float: right;
+}
+.textCenter {
+    text-align: center;
+}
+.rightBox button {
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(21, 16, 25);
+}
+.rightBox input {
+    width: 200px;
+    height: 25px;
+    border: none;
+}
+.textLeft {
+    margin-bottom: 10px;
+}
+.textLeft .em,.fr {
+    float: right;
+}
+.messageBox p {
+    margin-bottom: 10px;
+}
+.fl,.fr {
+color:rgb(21, 178, 235) ;
+}
+
+.put {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    height: 50px;
+    width: 770px;
+}
+#messageBtn {
+    float: left;
+    border: none;
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    background-color: rgb(255, 157, 51);
+}
+#messageContent {
+    float: left;
+    border: none;
+    height: 50px;
+    width: 600px;
+}
